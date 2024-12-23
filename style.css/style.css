@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Poppins';
+    max-width: 1600px;
+    background-color: #ffffff;
+  }
+  .container {
+    margin: 0 auto ;
+    max-width: 1210px;
+  }
+  header {
+    font-family: 'Dm Sans';
+    padding-top: 20px;
+  }
+  header .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 1193px;
+    height: 59px;
+  }
+
+  header .menu .menu-link {
+    margin-left: 350px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  header .menu .menu-link a {
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #666666;
+  }
+  header .menu .contacts-links img {
+    margin-right: 10px;
+   
+    width: 30px;
+    height: 30px;
+  }
+  header .menu a {
+    text-decoration: none;
+  }
+  .main-content {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-content-text {
+    margin-top: 45px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    color: #42446e;
+  }
+  .main-content-text span {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  }
+  .main-content-ava img {
+    width: 349px;
+    height: 349px;
+  }
+  .stack {
+    margin-top: 120px;
+  }
+  .stack-title {
+    padding-top: 50px;
+    text-align: center;
+    line-height: 26px;
+  }
+  .stack-title h2 {
+    color: #42446e;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .stack-title h3 {
+    margin-top: 25px;
+    padding-top: 15px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #666666;
+  }
+  .stack-list {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .project {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .project h2 {
+    color: #42446e;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .project h3 {
+    padding-top: 15px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #666666;
+  }
+  .project .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project .project-cards .card {
+    margin: 25px 15px;
+    width: 373px;
+    height:auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+  }
+  .project .project-cards .card h4 {
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .project .project-cards .card p {
+    margin: 25px ;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #666666;
+    text-align: left;
+  }
+  .project .project-cards .card small {
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: justify;
+  }
+  .project .project-cards .card a {
+    color: #000000;
+    padding: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .project .project-cards .card a img {
+    padding-right: 15px;
+    padding-top: 10px;
+  }
+  footer {
+    margin-top: 80px;
+  }
+  footer .footer-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #666666;
+  }
+  footer .footer-contact .contact-logo {
+    width: 97px;
+    height: 59px;
+  }
+  footer .footer-contact a {
+    text-decoration: none;
+    color: #42446e;
+  }
+  footer .footer-contact-contacts {
+    margin-left: 350px;
+    display: flex;
+  }
+  footer .footer-contact-contacts a {
+    padding: 0 35px;
+  }
+  footer .footer-contact .footer-contacts-links img {
+    width: 30px;
+    height: 29.26px;
+  }
+  footer .footer-menu {
+    margin-top: 35px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #42446e;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .footer-menu-link {
+    list-style: none;
+    display: flex;
+  }
+  footer .footer-menu-link a {
+    text-decoration: none;
+    margin-right: 45px;
+  }
+  footer .footer-menu .info {
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  footer .footer-menu .info span {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  }
+  footer .footer-menu .info b {
+    color: transparent;
+    font-weight: 400;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #ae13f5 -2.06%, #9b1172 100%);
+  }
+  @media (max-width: 768px) {
+    .container {
+      max-width: 750px;
+      padding: 25px;
+      margin: 0 auto;
+    }
+    header {
+      display: flex;
+      text-align: center;
+    }
+    header .menu {
+      flex-direction: column;
+    }
+    header .menu .menu-link {
+      justify-content: flex-end;
+      margin-left: 5px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      margin-right: 5px;
+    }
+    main {
+      text-align: center;
+    }
+    main .main-content-text {
+      font-size: 28px;
+    }
+    main .main-content-ava img {
+      width: 220px;
+      height: 220px;
+      margin-top: 35px;
+      margin-right: 25px;
+    }
+    .stack {
+      overflow: hidden;
+    }
+    .stack .stack-list {
+      justify-content: center;
+    }
+    .stack .stack-list img {
+      width: 60px;
+      height: 60px;
+      padding-right: 15px;
+    }
+    .project {
+      text-align: center;
+    }
+    .project .project-cards {
+      justify-content: center;
+    }
+    footer .footer-contact {
+      text-align: center;
+      flex-direction: column;
+    }
+    footer .footer-contact .contact-logo {
+      display: none;
+    }
+    footer .footer-contact-contacts {
+      justify-content: center;
+      margin-left: 0;
+      padding-bottom: 25px;
+    }
+    footer .footer-menu {
+      display: inline;
+      padding-top: 25px;
+    }
+    footer .footer-menu .footer-menu-link {
+      display: none;
+    }
+    footer .footer-menu .info p {
+      text-align: center;
+      padding-top: 35px;
+      font-size: 14px;
+    }
+  }
+  
