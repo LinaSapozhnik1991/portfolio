@@ -5,11 +5,12 @@
   body {
     font-family: 'Poppins';
     max-width: 1600px;
+  
     background-color: #ffffff;
   }
   .container {
-    margin: 0 auto ;
-    max-width: 1210px;
+margin: 0 auto;
+    width: 1220px;
   }
   header {
     font-family: 'Dm Sans';
